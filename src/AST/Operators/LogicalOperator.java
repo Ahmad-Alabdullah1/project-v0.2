@@ -85,6 +85,15 @@ public abstract class LogicalOperator extends  Operator {
                     return "(" + this.boolValue + " " + this.operator + " " + this.right + ")";
                 }
         }
-        else if()
+        else if(this.comp != null )
+        {
+            return "(" + this.comp + ")";
+
+        }
+        else if (ID !=null)
+        {
+            return  this.ID;
+        }
+        else return ""+boolValue;
     }
 }

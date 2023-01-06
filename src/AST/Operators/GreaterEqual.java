@@ -12,5 +12,8 @@ public class GreaterEqual extends ComarsionOperator {
         this.result =result;
 
     }
+
+
+    
 }
 
