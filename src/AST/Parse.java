@@ -1,6 +1,6 @@
 package AST;
 
-public class Parse {
+public class Parse extends Node {
 
  Block block;
 

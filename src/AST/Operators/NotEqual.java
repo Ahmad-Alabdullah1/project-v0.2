@@ -1,7 +1,6 @@
 package AST.Operators;
 
 import AST.Expression;
-import AST.Operators.ComarsionOperator;
 
 public  class NotEqual extends ComarsionOperator {
 
